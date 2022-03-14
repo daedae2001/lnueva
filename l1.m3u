@@ -1,4 +1,5 @@
 #EXTM3U
+<<<<<<< HEAD
 #EXTINF:0 type="stream" channelId="-1" group="CINE" logo="https://lh3.googleusercontent.com/-1AkpM1rC75w/YGdiuKFuQzI/AAAAAAABBGg/lG-2DxIFeU8K4vxZQxqPVZ6J29Bu5ZuSgCK8BGAsYHg/s512/2021-04-02.png", ZPTV
 https://srv3.zcast.com.br/juancarlos9451/juancarlos9451/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="CINE" logo="https://provider-static.plex.tv/epg/images/ott_channels/logos/cinereal_logo_dark_v3.png", Cine Real
@@ -208,6 +209,9 @@ http://shashe.dianshiwang.vip:27000/live/rogeliovnz/2019/4876.ts
 #EXTINF:0 type="favorites" channelId="-1" name="LA_SD:HISTORY CH" group="Centro A" logo="https://pbs.twimg.com/media/DzzY8mLXgAANgJA.jpg", LA_SD:HISTORY CH
 http://shashe.dianshiwang.vip:27000/live/rogeliovnz/2019/4887.ts
 #EXTINF:-1 channel-id=-1 tvg-id=x tvg-logo=https://www.m3u.cl/logo/1016_planetatv_movie.png group-title=x,planetatv movie * | cl
+=======
+#EXTINF:-1 channel-id=-1 tvg-id=x tvg-logo=https://www.m3u.cl/logo/1016_planetatv_movie.png group-title=x,planetatv movie  | cl
+>>>>>>> 28000cd0d96f85f6cac3e92c8b87ce4a6544057a
 https://mediacpstreamchile.com:1936/8140/8140/playlist.m3u8?playlistm3ucl
 #EXTINF:-1 channel-id=-1 tvg-id=x tvg-logo=https://i.postimg.cc/srjqfrjc/cine-life.png group-title=cine y series,cine life
 https://magselect-stirr.amagi.tv/playlist720p.m3u8
