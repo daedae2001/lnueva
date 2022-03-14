@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:0 type="stream" channelId="-1" name="Planetatv Kids" logo="https://www.m3u.cl/logo/1015_Planetatv_Kids.png", Planetatv Kids * | CL
+#EXTINF:0 type="stream" channelId="-1" name="Planetatv Kidss" logo="https://www.m3u.cl/logo/1015_Planetatv_Kids.png", Planetatv Kids * | CL
 https://mediacpstreamchile.com:1936/8152/8152/playlist.m3u8?PlaylistM3UCL
 #EXTINF:0 type="stream" channelId="-1" name="Planetatv Movie" logo="https://www.m3u.cl/logo/1016_Planetatv_Movie.png", Planetatv Movie * | CL
 https://mediacpstreamchile.com:1936/8140/8140/playlist.m3u8?PlaylistM3UCL
