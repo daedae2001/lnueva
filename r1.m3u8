@@ -1,8 +1,8 @@
 #EXTM3U
 #EXTINF:0 type="stream" channelId="-1" name="Planetatv Kidss" logo="https://www.m3u.cl/logo/1015_Planetatv_Kids.png", Planetatv Kids * | CL
-https://mediacpstreamchile.com:1936/8152/8152/playlist.m3u8?PlaylistM3UCL
+https://mediacpstreamchile.com:1936/8152/8152/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" name="Planetatv Movie" logo="https://www.m3u.cl/logo/1016_Planetatv_Movie.png", Planetatv Movie * | CL
-https://mediacpstreamchile.com:1936/8140/8140/playlist.m3u8?PlaylistM3UCL
+https://mediacpstreamchile.com:1936/8140/8140/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="CINE Y SERIES" logo="https://i.postimg.cc/SRJQFrjC/CINE-LIFE.png", CINE LIFE
 https://magselect-stirr.amagi.tv/playlist720p.m3u8
 #EXTINF:0 type="stream" channelId="3226" group="STARZ" logo="https://1.bp.blogspot.com/-cK2kQzmu2ak/X-3OhlFHB4I/AAAAAAAAL6M/uFFA9RAQgAcpJDg4UClcvDscVtvuExhwwCLcBGAsYHQ/s0/MAQUETA%2B%25282%2529%2B%25281%2529.png", STARZ WESTERN_
@@ -462,45 +462,45 @@ http://200.24.159.179:8500/play/a01m
 #EXTINF:0 type="favorites" channelId="2488" group="LATINO AMERICA" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Logo_de_Se%C3%B1al_Colombia.png/1200px-Logo_de_Se%C3%B1al_Colombia.png", SEÑAL COLOMBIA
 https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Chavo TV" logo="https://www.m3u.cl/logo/46_Chavo_TV.png", Chavo TV * | CL
-https://videostreaming.cloudserverlatam.com:443/ElChavotv/ElChavotv/playlist.m3u8?PlaylistM3UCL
+https://videostreaming.cloudserverlatam.com:443/ElChavotv/ElChavotv/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="CSTV" logo="https://www.m3u.cl/logo/47_CSTV.png", CSTV * | CL
-https://videostreaming.cloudserverlatam.com:443/CSTV/CSTV/playlist.m3u8?PlaylistM3UCL
+https://videostreaming.cloudserverlatam.com:443/CSTV/CSTV/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Retro Plus TV Señal 3" logo="https://www.m3u.cl/logo/465_Retro_Plus_TV_Senal_3.png", Retro Plus TV Señal 3 | CL
-https://59f1cbe63db89.streamlock.net:1443/retroplussenal3/_definst_/retroplussenal3/playlist.m3u8?PlaylistM3UCL
+https://59f1cbe63db89.streamlock.net:1443/retroplussenal3/_definst_/retroplussenal3/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="FMTV 1" logo="https://www.m3u.cl/logo/481_FMTV_1.png", FMTV 1 | US
-https://cloud2.streaminglivehd.com:1936/8070/8070/playlist.m3u8?PlaylistM3UCL
+https://cloud2.streaminglivehd.com:1936/8070/8070/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Mi TV Televisión Clásica" logo="https://www.m3u.cl/logo/472_Mi_TV_Television_Clasica.png", Mi TV Televisión Clásica | US
-https://mitv.getstreamhosting.com:30443/live/livestream123/playlist.m3u8?PlaylistM3UCL
+https://mitv.getstreamhosting.com:30443/live/livestream123/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Orbit TV" logo="https://www.m3u.cl/logo/486_Orbit_TV.png", Orbit TV | DO
-https://ss3.domint.net:3134/otv_str/orbittv/playlist.m3u8?PlaylistM3UCL
+https://ss3.domint.net:3134/otv_str/orbittv/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Anime Zone TV" logo="https://www.m3u.cl/logo/488_Anime_Zone_TV.png", Anime Zone TV | AR_
-http://azxtv.com/hls/stream.m3u8?PlaylistM3UCL
+http://azxtv.com/hls/stream.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Locomotion" logo="https://www.m3u.cl/logo/50_Locomotion.png", Locomotion | AR_
-http://51.222.85.85:81/hls/loco/index.m3u8?PlaylistM3UCL
+http://51.222.85.85:81/hls/loco/index.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="G Vision" logo="https://www.m3u.cl/logo/69_G_Vision.png", G Vision | CL
-https://tls-cl.cdnz.cl/escgabrielamistral/live/playlist.m3u8?PlaylistM3UCL
+https://tls-cl.cdnz.cl/escgabrielamistral/live/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="TV+ Diferido" logo="https://www.m3u.cl/logo/459_TV__Diferido.png", TV+ Diferido | CL
-https://mdstrm.com/live-stream-playlist/5cb5f2bd50ae45798813ba17.m3u8?PlaylistM3UCL
+https://mdstrm.com/live-stream-playlist/5cb5f2bd50ae45798813ba17.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="13 Teleseries" logo="https://www.m3u.cl/logo/1032_13_Teleseries.png", 13 Teleseries | CL
-https://unlimited1-cl-isp.dps.live/13t/13t.smil/playlist.m3u8?PlaylistM3UCL
+https://unlimited1-cl-isp.dps.live/13t/13t.smil/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Raices Arabes TV" logo="https://www.m3u.cl/logo/910_Raices_Arabes_TV.png", Raices Arabes TV | CL
-https://Stmv1.zcastbr.com/julio4589/julio4589/playlist.m3u8?PlaylistM3UCL
+https://Stmv1.zcastbr.com/julio4589/julio4589/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="RLOTV" logo="https://www.m3u.cl/logo/895_RLOTV.png", RLOTV | CL
-https://593b04c4c5670.streamlock.net:443/8034/8034/playlist.m3u8?PlaylistM3UCL
+https://593b04c4c5670.streamlock.net:443/8034/8034/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="FashionTV New York" logo="https://www.m3u.cl/logo/489_FashionTV_New_York.png", FashionTV New York | US_
-http://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_gmt_-5_qko_43090_default_1225_hls.smil/playlist.m3u8?PlaylistM3UCL
+http://fash2043.cloudycdn.services/slive/_definst_/ftv_ftv_gmt_-5_qko_43090_default_1225_hls.smil/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="FashionTV Paris" logo="https://www.m3u.cl/logo/490_FashionTV_Paris.png", FashionTV Paris | US
-https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_paris_pg_4dg_27027_paris_pg18_188_hls.smil/playlist.m3u8?PlaylistM3UCL
+https://fash1043.cloudycdn.services/slive/_definst_/ftv_ftv_paris_pg_4dg_27027_paris_pg18_188_hls.smil/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Geovision" logo="https://www.m3u.cl/logo/315_Geovision.jpg", Geovision | CL
-https://5fa5de1a545ae.streamlock.net:443/Geovision/Geovision/playlist.m3u8?PlaylistM3UCL
+https://5fa5de1a545ae.streamlock.net:443/Geovision/Geovision/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Enfoque Digital TV" logo="https://www.m3u.cl/logo/322_Enfoque_Digital_TV.png", Enfoque Digital TV | CL
-https://stmv1.voxhdnet.com/edtvchile/edtvchile/playlist.m3u8?PlaylistM3UCL
+https://stmv1.voxhdnet.com/edtvchile/edtvchile/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="TV Elqui" logo="https://www.m3u.cl/logo/329_TV_Elqui.png", TV Elqui | CL
-https://5eff35271151c.streamlock.net:1936/8070/8070/playlist.m3u8?PlaylistM3UCL
+https://5eff35271151c.streamlock.net:1936/8070/8070/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Canal 74 TeVe" logo="https://www.m3u.cl/logo/334_Canal_74_TeVe.png", Canal 74 TeVe | CL
-https://Stmv1.zcastbr.com/canal74hd/canal74hd/playlist.m3u8?PlaylistM3UCL
+https://Stmv1.zcastbr.com/canal74hd/canal74hd/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Buin Somos Todos" logo="https://www.m3u.cl/logo/337_Buin_Somos_Todos.png", Buin Somos Todos | CL
-https://bst.buin.cl/0.m3u8?PlaylistM3UCL
+https://bst.buin.cl/0.m3u8
 #EXTINF:0 type="favorites" channelId="321", Boomerang_
 http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/12
 #EXTINF:0 type="favorites" channelId="962", aTV
@@ -508,11 +508,11 @@ https://video.misistemareseller.com/atvhonduras/atvhonduras/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="2693", azteca honduras_
 http://190.122.96.187:8888/http/002
 #EXTINF:0 type="favorites" channelId="4772" name="Canal Capital" logo="https://www.m3u.cl/logo/495_Canal_Capital.png", Canal Capital | CO
-https://mdstrm.com/live-stream-playlist/57d01d6c28b263eb73b59a5a.m3u8?PlaylistM3UCL
+https://mdstrm.com/live-stream-playlist/57d01d6c28b263eb73b59a5a.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Tele Clasicos" logo="https://www.m3u.cl/logo/911_Tele_Clasicos.png", Tele Clasicos | CR
-https://tvdatta.com:3484/hybrid/play.m3u8?PlaylistM3UCL
+https://tvdatta.com:3484/hybrid/play.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="On Radio Chile" logo="https://www.m3u.cl/logo/385_On_Radio_Chile.png", On Radio Chile | CL
-https://tls-cl.cdnz.cl/adgm-1/live/playlist.m3u8?PlaylistM3UCL
+https://tls-cl.cdnz.cl/adgm-1/live/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" group="Samsung TV" logo="https://i.imgur.com/eTjeTKh.png", Sony Novelas | HD | Estados Unidos
 https://spt-novelas-1-us.samsung.wurl.tv/3000.m3u8
 #EXTINF:0 type="favorites" channelId="-1" group="Cine y Series" logo="https://i.imgur.com/0oTjKAa.png", TV MAS | HD | Chile
@@ -762,9 +762,9 @@ https://chromecast.cvattv.com.ar/live/c2live/Theater_HD/SA_SAGEMCOM/Theater_HD.m
 #EXTINF:0 type="favorites" channelId="-1" group="K.PREMIUM" logo="https://i.ibb.co/Y8gJHw1/hyh.png", HOME & HEALT
 https://chromecast.cvattv.com.ar/live/c3eds/DiscoveryHomeHealthHD/SA_SAGEMCOM/DiscoveryHomeHealthHD.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="Caracola TV" logo="https://www.m3u.cl/logo/1020_Caracola_TV.png", Caracola TV * | CL
-https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8?PlaylistM3UCL
+https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="EGM Channel" logo="https://www.m3u.cl/logo/1022_EGM_Channel.png", EGM Channel * | CL
-https://paneltv.online:1936/8186/8186/playlist.m3u8?PlaylistM3UCL
+https://paneltv.online:1936/8186/8186/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1", HOLA! TV_
 http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/137
 #EXTINF:0 type="favorites" channelId="-1", Canal VTV_
