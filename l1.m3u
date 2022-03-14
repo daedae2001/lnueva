@@ -56,7 +56,7 @@ http://tvretropalmares.com:8090/hls/envivo.m3u8?WebM3UCL
 https://spt-comedias-1-us.samsung.wurl.tv/1200.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="Moda" logo="https://i.imgur.com/vTv1ysB.png", FashionTV Czech&Slovak | SD | Francia
 http://lb.streaming.sk/fashiontv/stream/playlist.m3u8
-#EXTINF:0 type="stream" channelId="-1" group="Moda" logo="https://i.imgur.com/HiSjDAa.png", HD Fashion & Lifestyle | FHD | Holanda
+#EXTINF:0 type="stream" channelId="-10" group="Moda" logo="https://i.imgur.com/HiSjDAa.png", HD Fashion & Lifestyle | FHD | Holanda
 http://95.67.47.115/hls/hdfashion_ua_hi/index.m3u8
 #EXTINF:0 type="stream" channelId="2163" group="CINE Y SERIES" logo="https://upload.wikimedia.org/wikipedia/commons/8/8f/Pluto_TV_2020_logo.png", CINE
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5defde6d6c07b50009cf0757/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff1ae24-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=b1c7f116-fa08-488b-a213-5bb1f7ee5ad2&userId=&serverSideAds=true
