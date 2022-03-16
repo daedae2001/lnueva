@@ -13,24 +13,11 @@ def crea_csv_sucio(arch):
     if i == 1:
         j = 0
         for linea in f:
-            linea = linea.replace("#EXTINF:1", "#EXTINF:0").replace("#EXTINF:-1", "#EXTINF:0").lower().replace("  ", " ").replace("  ", " ").replace(":0 ", "=0;").replace(
-                ":1 ", "=1;").replace('" ', '";').replace(", ", ",")
+            linea = linea.replace("#EXTINF:0", "#EXTINF:0").replace("  # EXTINF:1", "#EXTINF:0").replace("  # EXTINF:-1", "#EXTINF:0").lower().replace("  ", " ").replace("  ", " ").replace(": 0 ", "=0").replace(
+                ":1 ", "=1;").replace('" ', '";').replace(", ", ",").replace(" ,", ",")
             j = j+1
 
-            if linea[0:7] == "#extinf":
-                #print(str(j) + " " + linea)
-                l1 = linea.replace(":", "=").replace("=//", "://").split(",")
-                l1[0] = l1[0]+";nombre=" + \
-                    l1[1].replace('\n', '')
-                l2 = l1[0].split(";")
-
-                for a in l2:
-                    try:
-                        registro_nuevo1.append(a.split("="))
-                    except:
-                        pass
-                # print("nuevo")
-            elif linea[0:7] == "#extm3u":
+            if linea[0:7] == "#extm3u":
                 pass
             elif linea[0:4] == "http":
                 registro_nuevo1.append(["url", linea.replace('\n', '')])
@@ -40,6 +27,19 @@ def crea_csv_sucio(arch):
                     registro_nuevo1 = []
                 except:
                     pass
+            else:
+                #print(str(j) + " " + linea)
+                l1 = linea.replace(":", "=").replace("=//", "://").split(",")
+                l1[0] = l1[0]+";nombre=" + \
+                    l1[1].replace('\n', '')
+                l2 = l1[0].split(";")
+                l3 = l1[0].split(' ')
+                for a in l2:
+                    try:
+                        registro_nuevo1.append(a.split("="))
+                    except:
+                        pass
+                # print("nuevo")
 
         f.close()
         # print(registro)
