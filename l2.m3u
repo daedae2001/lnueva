@@ -15,24 +15,6 @@ http://k4.usastreams.com/ARBtv/teleplus/playlist.m3u8
 http://k4.usastreams.com/ARBtv/ARBtv/playlist.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="CINE Y SERIES 2" logo="https://images.pluto.tv/channels/5f6a38eaa5b68b0007a00e7a/colorLogoPNG.png", SCI-FI 2
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f6a38eaa5b68b0007a00e7a/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=ef4d2891-7255-11eb-a983-9335ded533f7&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=bd9d9781-2910-4dd2-9b1f-a1fd662d0cc3&userId=&serverSideAds=true
-#EXTINF:0 type="stream" channelId="2903", WARNER HD
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/73
-#EXTINF:0 type="stream" channelId="341", Discovery Channel HD
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/42
-#EXTINF:0 type="stream" channelId="164", Nat Geo Wild
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/36
-#EXTINF:0 type="stream" channelId="2839", Discovery World
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/65
-#EXTINF:0 type="stream" channelId="2584", HBO Family HD
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/128
-#EXTINF:0 type="stream" channelId="1330", HBO HD
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/129
-#EXTINF:0 type="stream" channelId="2585", HBO Plus
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/131
-#EXTINF:0 type="stream" channelId="2587", HBO XTREME
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/255
-#EXTINF:0 type="stream" channelId="2896", SPACE HD
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/94
 #EXTINF:0 type="stream" channelId="-1" group="NIÑOS Y ADOLESCENTES" logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/El_Chavo_%28simple_logo%29.svg/1200px-El_Chavo_%28simple_logo%29.svg.png", EL CHAVO
 https://videostreaming.cloudserverlatam.com/ElChavotv/ElChavotv/chunklist_w1027442110.m3u8
 #EXTINF:0 type="stream" channelId="-1" group="ANIMACIÓN PARA ADULTOS" logo="https://i.postimg.cc/1XdvJp8v/MTV_ANIMACIONES.png", MTV ANIMACIONES
@@ -165,10 +147,6 @@ https://chromecast.cvattv.com.ar/live/c3eds/DiscoveryHomeHealthHD/SA_SAGEMCOM/Di
 https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8
 #EXTINF:0 type="favorites" channelId="-1" name="EGM Channel" logo="https://www.m3u.cl/logo/1022_EGM_Channel.png", EGM Channel * | CL
 https://paneltv.online:1936/8186/8186/playlist.m3u8
-#EXTINF:0 type="favorites" channelId="-1", HOLA! TV
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/137
-#EXTINF:0 type="favorites" channelId="-1", Canal VTV
-http://iptvhn.sytes.net:25461/dagoberto/r3mQXuDj04/4267
 #EXTINF:0 type="favorites" channelId="-1" group="CINE & SERIES" logo="https://lh3.googleusercontent.com/-obky0xopJjA/XrIZZ5C1quI/AAAAAAAA0bo/OBDSs6fw5zEa1eQJrv7j7IkMtaoQFcBJgCK8BGAsYHg/s0/2020-05-05.png", RETROPLUS SERIES
 https://59f1cbe63db89.streamlock.net:1443/retroplussenal3/_definst_/retroplussenal3/chunklist_w458806239.m3u8?WebM3UCL
 #EXTINF:0 type="favorites" channelId="-1" group="24/7" logo="http://images.pluto.tv/channels/605e479d5b8229000763e697/colorLogoPNG.png", ESCAPE PERFECTO
@@ -207,7 +185,6 @@ http://shashe.dianshiwang.vip:27000/live/rogeliovnz/2019/4863.ts
 http://shashe.dianshiwang.vip:27000/live/rogeliovnz/2019/4876.ts
 #EXTINF:0 type="favorites" channelId="-1" name="LA_SD:HISTORY CH" group="Centro A" logo="https://pbs.twimg.com/media/DzzY8mLXgAANgJA.jpg", LA_SD:HISTORY CH
 http://shashe.dianshiwang.vip:27000/live/rogeliovnz/2019/4887.ts
-#EXTINF:-1 channel-id=-1 tvg-id=x tvg-logo=https://www.m3u.cl/logo/1016_planetatv_movie.png group-title=x,planetatv movie * | cl
 #EXTINF:-1 channel-id=-1 tvg-id=x tvg-logo=https://www.m3u.cl/logo/1016_planetatv_movie.png group-title=x,planetatv movie  | cl
 https://mediacpstreamchile.com:1936/8140/8140/playlist.m3u8
 #EXTINF:-1 channel-id=-1 tvg-id=x tvg-logo=https://i.postimg.cc/srjqfrjc/cine-life.png group-title=cine y series,cine life
