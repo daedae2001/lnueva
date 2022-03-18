@@ -1,13 +1,13 @@
 import m_une_csvs
-li = ['1.m3u8',
-      '2.m3u8',
-      '3.m3u8',
-      '4.m3u8',
-      '5.m3u8',
-      '6.m3u8',
-      '7.m3u8',
-      '8.m3u8',
-      '9.m3u8',
-      '10.m3u8'
+li = ['n_1.m3u8',
+      'n_2.m3u8',
+      'n_3.m3u8',
+      'n_4.m3u8',
+      'n_5.m3u8',
+      'n_6.m3u8',
+      'n_7.m3u8',
+      'n_8.m3u8',
+      'n_9.m3u8'
       ]
-m_une_csvs.une_csvs(li)
+li1=['todon.csv'  ]
+m_une_csvs.une_csvs2(li1)
