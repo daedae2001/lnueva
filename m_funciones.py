@@ -3,9 +3,21 @@ from types import TracebackType
 import requests
 resultado = ['channel-id="x"', 'tvg-id="x"', 'tvg-logo="x"',
                  'group-title="x"', 'nombre=x', 'url="x"']
-resultado_csv = ['x', 'x', 'x','x', 'x', '']
+resultado2 = ['channel-id="x"', 'tvg-id="x"', 'tvg-logo="x"',
+                 'group-title="x"', 'nombre=x', 'url="x"']
+resultado_csv = ['"x"', '"x"', '"x"','"x"', '"x"', '"nn"']
+titulos = ['channel-id', 'tvg-id', 'tvg-logo',
+            'group-title']
+    
 
 def extrae(t, b):
+    """
+    b
+    'channel-id'
+    t
+    '#EXTINF:-1 channel-id="canalsamsum"  tvg-id="samsung1"  
+    tvg-logo="https://img.rtve.es/imagenes/multisenal-24/1361962728583.png" 
+     group-title="10_Noticias"  ,canal se samsung 1\n'"""
     f = '"'
     try:
         esta = t.find(b)
@@ -23,46 +35,22 @@ def extrae(t, b):
 
 
 def procesa_linea_m3u_sucia(linea ,  tipo='m3u'):
-    titulos = ['channel-id', 'tvg-id', 'tvg-logo',
-               'group-title']
-    
+    """
+    linea
+    '#EXTINF:-1 channelId="canalsamsum"  tvg-id="samsung1" 
+        tvg-logo="https://img.rtve.es/imagenes/multisenal-24/1361962728583.png" 
+        group-title="10_Noticias"  ,canal se samsung 1\n'
+    """
+ 
     #linea = linea.lower()
-    linea = linea.replace(' channelId=', ' channel-id=')
-    linea = linea.replace(' channelid=', ' channel-id=')
-    linea = linea.replace(' id=', ' tvg-id=')
-    linea = linea.replace(' name=', ' tvg-name=')
-    linea = linea.replace(' logo=', ' tvg-logo=')
-    linea = linea.replace(' grupo=', ' group-title=')
-    try:
-        # print(linea+'\n')
+  
 
-        # print(linea[0:7]+'\n')
-        if linea[0:7] == "#EXTINF":
-            p1 = linea.split((','))
-            nombre = p1[1].replace('\n', '').strip(' \n_')
-            p2 = p1[0].split((' '))
-            # print('limpia')
-
-            i = 0
-            for ti in titulos:
-                rr = extrae(linea, ti.replace('"x"', ''))
-                if rr != None:
-                    if tipo=='m3u':
-                        resultado[i] = ti+"="+rr
-                    else:
-                        resultado_csv[i] = rr.replace('"','')
-                i = i+1
-            resultado[4] = nombre
-
-        elif linea[0: 7] == "#EXTM3U":
-            pass
-        elif linea[0: 4] == "http":
-            #print(linea.replace('\n', ''))
-            resultado[5] = linea.replace('\n', '')
-
-        return resultado
-    except:
-        resultado
+    """
+    linea
+    '#EXTINF:-1 channel-id="canalsamsum"  tvg-id="samsung1"  
+    tvg-logo="https://img.rtve.es/imagenes/multisenal-24/1361962728583.png"  
+    group-title="10_Noticias"  ,canal se samsung 1\n'
+    """
 
 
 def recorre_m2u_original(arch):
@@ -85,7 +73,7 @@ def recorre_m2u_original(arch):
                     
                     else:
                             
-                        ht = requests.get(resultado[5],  timeout=0.5)
+                        
                         print(ht.headers)
                         if "video/mp2t" in ht.headers:
                             pass
@@ -111,15 +99,55 @@ def recorre_m2u_original(arch):
     return m3u_dat
 
 def recorre_m2u_original2(arch):
-    m3u_dat = []
-    
+
+    #arch = 'lista_controladan1.m3u8'
+
+    #ht = requests.get(resultado[5],  timeout=0.5)
     f = open(arch, 'r', encoding="utf8")
 
     for linea in f:
-        try:
-            resultado = procesa_linea_m3u_sucia(linea, 'm3u')
-            resultado_csv = procesa_linea_m3u_sucia(linea, 'csv')
+        linea = linea.replace(' channelId=', ' channel-id=')
+        linea = linea.replace(' channelid=', ' channel-id=')
+        linea = linea.replace(' id=', ' tvg-id=')
+        linea = linea.replace(' name=', ' tvg-name=')
+        linea = linea.replace(' logo=', ' tvg-logo=')
+        linea = linea.replace(' grupo=', ' group-title=')
+        """
+        linea
+        '#EXTINF:-1 channel-id="canalsamsum"  tvg-id="samsung1" 
+         tvg-logo="https://img.rtve.es/imagenes/multisenal-24/1361962728583.png" 
+          group-title="10_Noticias"  ,canal se samsung 1\n'
 
+        """
+        try:
+            if linea[0:7] == "#EXTINF":
+                p1 = linea.split((','))
+                """
+                ['#EXTINF:-1 channel-id="canalsamsum"  tvg-id="samsung1"  
+                tvg-logo="https://img.rtve.es/imagenes/multisenal-24/1361962728583.png" 
+                group-title="10_Noticias"  ', 'canal se samsung 1\n']
+                """
+                nombre = p1[1].replace('\n', '').strip(' \n_')
+
+                p2 = p1[0].split((' '))
+                """
+                ['#EXTINF:-1', 'channel-id="canalsamsum"', '', 'tvg-id="samsung1"', '',
+                'tvg-logo="https://img.rtve.es/imagenes/multisenal-24/1361962728583.png"', 
+                '', 'group-title="10_Noticias"', '', '']
+                """
+                i = 0
+                for ti in titulos:
+                    rr = extrae(linea, ti.replace('"x"', ''))
+                    if rr != None:
+                       resultado[i] = ti+"="+rr
+                    i = i+1
+                resultado[4] = nombre
+            elif linea[0: 4] == "http":
+                    #print(linea.replace('\n', ''))
+                    resultado[5] = linea.replace('\n', '')
+            #resultado_csv = procesa_linea_m3u_sucia(linea, 'csv')
+            else:
+                pass
             if resultado[5] == 'url="x"' or resultado[5] == '':
                 pass
             else:
@@ -129,21 +157,33 @@ def recorre_m2u_original2(arch):
                     
                     if t==5:
                         texto_m3u=texto_m3u+u.replace('http','\nhttp')
+                    if t==4:
+                        texto_m3u=texto_m3u+' ,'+u
+                            
                     else:
                         texto_m3u=texto_m3u+u+' '
                     t=t+1
-                m = open('n_'+arch, 'a', encoding="utf8")
-                m.write(texto_m3u+'\n')
-                m.close()
-                texto_csv=''
-               
+                #m = open('n_'+arch, 'r', encoding="utf8")
+                if texto_m3u!='':
+                    q=texto_m3u+'\n'
+                    texto_m3u=''
+                    #m.close()
+                    m = open('n_'+arch, 'a', encoding="utf8")
+                    m.write(q)
+                    resultado=resultado2
+                    q=''
+                    m.close()
+                else:
+                    pass
+
+                """
                 for u in resultado_csv:
                     texto_csv=(texto_csv+u)+' ,'
                     
                 c = open('n_'+arch.replace('m3u8','csv').replace('m3u','csv'), 'a', encoding="utf8")
                 c.write(texto_csv.strip(', ')+'\n')
                 c.close()
-               
+                """
         except BaseException as err:
             print(f"Unexpected {err=}, {type(err)=}")
             
