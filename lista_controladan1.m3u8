@@ -4,7 +4,8 @@ http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f28009b150b2500077766
 
 #EXTINF:-1 channel-id="telefe"  tvg-id="telefe"  tvg-logo="https://www.mundoplus.tv/wiki/lib/exe/fetch.php?w=144&h=108&tok=744cda&media=https%3A%2F%2Fwww.mundoplus.tv%2Fwiki%2F_media%2Flogos%2Fvevolatino.png"  group-title="11_MUSICA"  ,teefe 
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f523aa5523ae000074745ec/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
-#EXTINF:-1 channel-id="103VEVOLatino"  tvg-id="103VEVOLatino"  tvg-logo="https://www.mundoplus.tv/wiki/lib/exe/fetch.php?w=144&h=108&tok=744cda&media=https%3A%2F%2Fwww.mundoplus.tv%2Fwiki%2F_media%2Flogos%2Fvevolatino.png"  group-title="11_MUSICA"  ,103VEVOLatino 
+#EXTINF:-1 channel-id="103VEVOLatino"  tvg-id="103VEVOLatino"  tvg-logo="https://www.mundoplus.tv/wiki/lib/exe/fetch.php?w=144&h=108&tok=744cda&media=
+https%3A%2F%2Fwww.mundoplus.tv%2Fwiki%2F_media%2Flogos%2Fvevolatino.png"  group-title="11_MUSICA"  ,103VEVOLatino 
 https://5dcc6a9f1621dc5dd511ca14-s-5.ssai.zype.com/5dcc6a9f1621dc5dd511ca14-s-5/manifest.m3u8
 #EXTINF:-1 channel-id="x"  tvg-id=  tvg-logo=  group-title="07_VARIEDADES"  ,13 teleseries 
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=65&live=1&app_bundle=com.plexapp.desktop&did=&app_domain=app.plex.tv&app_name=plex&h=1080&w=1920&content_title=vx2gxit5q_vtarvywbza&content_series=5f5132e362fe160040f26c18&custom4=plex&gdpr=0&device_make=windows&device_model=opera&coppa=0&us_privacy=1---
@@ -307,7 +308,8 @@ http://51.79.18.128:8081/LATINO%7CAYE/LATINO%7CAYE/playlist.m3u8
 #EXTINF:-1 channel-id="4551"  tvg-id="139944"  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cine.Ar_logo.svg/1280px-Cine.Ar_logo.svg.png"  group-title="CINE"  ,LATINO DE PELICULA
 http://51.79.18.128:8081/LATINO%7CDEPELICULA/LATINO%7CDEPELICULA/playlist.m3u8
 #EXTINF:-1 channel-id="LN+"  tvg-id="LN+"  tvg-logo="https://n9.cl/lg9kp"  group-title="10_Noticias"  ,LN+ 
-https://qwe00.herokuapp.com/iptv-query?streaming-ip=https://www.youtube.com/watch?v=taquniX5KO0
+https://qwe00.herokuapp.com/iptv-query?streaming-ip=
+https://www.youtube.com/watch?v=taquniX5KO0
 #EXTINF:-1 channel-id="pluto-5f1acbed25948a0007ffbe65"  tvg-id="es5f1acbed25948a0007ffbe65"  tvg-logo="https://images.pluto.tv/channels/5f1acbed25948a0007ffbe65/colorLogoPNG.png"  group-title="05_Crimenymisterio"  ,Los archivos del FBI_es 
 http://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/5f1acbed25948a0007ffbe65/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=unknown&appVersion=unknown&deviceLat=0&deviceLon=0&deviceDNT=%7BTARGETOPT%7D&deviceId=%7BPSID%7D&advertisingId=%7BPSID%7D&us_privacy=1YNY&samsung_app_domain=%7BAPP_DOMAIN%7D&samsung_app_name=%7BAPP_NAME%7D&profileLimit=&profileFloor=&embedPartner=samsung-tvplus
 #EXTINF:-1 channel-id="pluto-5e67d41b93312100076f3fca"  tvg-id="mx5e67d41b93312100076f3fca"  tvg-logo="https://images.pluto.tv/channels/5e67d41b93312100076f3fca/colorLogoPNG.png"  group-title="05_Crimenymisterio"  ,Los archivos del FBI_mx 

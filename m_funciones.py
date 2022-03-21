@@ -172,6 +172,7 @@ def recorre_m2u_original2(arch):
                     m.write(q)
                     resultado=resultado2
                     q=''
+                    resultado[5]='url="x"'
                     m.close()
                 else:
                     pass
